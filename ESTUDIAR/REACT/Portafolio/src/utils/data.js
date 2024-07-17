@@ -77,12 +77,33 @@ export const WORK_EXPERIENCE = [
 export const PROJECTS = [
   {
     tittle: "Fenix",
-    image: "../assets/images/api.png" ,
+    image: "../src/assets/images/html5_icon.png" ,
+    skills: "",
+  },
+ 
+  {
+    tittle: "Fenix",
+    image: "../src/assets/images/sql_icon.png",
     skills: "",
   },
   {
     tittle: "Fenix",
-    image: "../assets/images/api.png",
+    image: "../src/assets/images/js_icon.png",
+    skills: "",
+  },
+  {
+    tittle: "Fenix",
+    image: "../src/assets/images/tailwind_css_icon.png",
+    skills: "",
+  },
+  {
+    tittle: "Fenix",
+    image: "../src/assets/images/nodejs_icon2.png",
+    skills: "",
+  },
+  {
+    tittle: "Fenix",
+    image: "../src/assets/images/css3_icon.png",
     skills: "",
   },
 ];

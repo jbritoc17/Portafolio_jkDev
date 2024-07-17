@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+
 import "./Projects.css";
 import { PROJECTS } from "../../utils/data";
-import ProjectsCard from "./ProjectsCard/ProjectsCard";
+/* import ProjectsCard from "./ProjectsCard/ProjectsCard"; */
 
 const Projects = () => {
 
@@ -13,13 +13,13 @@ const Projects = () => {
       <div className="projects-content">
       {PROJECTS.map(item=>(
         
-        <ProjectsCard className="projects-carrusel"
-        key={item.tittle}
-        imgUrl={item.image}
-        title={item.tittle}
-        skills={item.skills}
-        />
-
+        
+          (<div className="projects-carrusel" key={item.tittle}>
+          
+            <a className="carrusel-img" href=""> <img src={item.image} alt={item.tittle} /></a>
+            
+            <span>{item.skills}</span>
+          </div>)
         
       ))}
       </div>

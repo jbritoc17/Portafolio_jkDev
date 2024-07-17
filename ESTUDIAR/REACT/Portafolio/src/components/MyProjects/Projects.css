@@ -1,27 +1,54 @@
-.projects-container{
-    position: relative;
-  width: 320px;
-  margin: 100px auto 0 auto;
-  perspective: 1000px;
+.projects-container {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  margin: 100px auto 100px auto;
+  perspective: 10000px;
 }
 
-.projects-content{
-    position: relative;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d; 
-  animation: rotate360 60s infinite forwards linear; 
+.projects-content {
+  position: absolute;
+  width: 50%;
+  /* height: 100%; */
+
+  transform-style: preserve-3d;
+  animation: rotate360 60s infinite forwards linear;
 }
-.projects-carrusel{
-    position: relative;
-  width: 300px;
-  height: 187px;
-  top: 20px;
+
+.projects-carrusel {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 10px;
   left: 10px;
-  right: 10px;
+  right: 20px;
   background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+
   display: flex;
+
+}
+
+.projects-container::after,
+.projects-container::before {
+  content: " ";
+  width: 18rem;
+  height: 18rem;
+  border-radius: 28.125rem;
+  background: #5231e3;
+  position: absolute;
+  z-index: -1;
+  filter: blur(300px);
+}
+
+.projects-container::after {
+  top: -3rem;
+  left: -5rem;
+}
+
+.projects-container::before {
+  background: #5d047d;
+  bottom: 0rem;
+  right: 0rem;
 }
 
 span {
@@ -30,18 +57,47 @@ span {
 }
 
 .projects-carrusel:nth-child(1) {
-  background-image: url("https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-transform: rotateY(  0deg) translateZ(430px); 
+
+  transform: rotateY(0deg) translateZ(230px);
 }
 
-.projects-carrusel:nth-child(2) { 
-  background-image: url("https://images.pexels.com/photos/1258865/pexels-photo-1258865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    transform: rotateY( 40deg) translateZ(430px); }
+.projects-carrusel:nth-child(2) {
 
-    @keyframes rotate360 {
+  transform: rotateY(60deg) translateZ(230px);
+}
+
+.projects-carrusel:nth-child(3) {
+
+  transform: rotateY(120deg) translateZ(230px);
+}
+
+.projects-carrusel:nth-child(4) {
+
+
+  transform: rotateY(180deg) translateZ(230px);
+}
+
+.projects-carrusel:nth-child(5) {
+
+  transform: rotateY(240deg) translateZ(230px);
+}
+
+.projects-carrusel:nth-child(6) {
+  transform: rotateY(300deg) translateZ(230px);
+}
+
+
+
+.carrusel-img img:hover{
+ transform: scale3d(2.5, 1.2, 0.3);
+ transition: all 0.3s ease-in;
+}
+
+@keyframes rotate360 {
   from {
     transform: rotateY(0deg);
   }
+
   to {
     transform: rotateY(-360deg);
   }
