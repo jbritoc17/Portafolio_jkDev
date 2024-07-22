@@ -5,7 +5,7 @@
 
 .contact-container h5 {
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 800;
     margin-bottom: 3rem;
 }
 
@@ -13,6 +13,95 @@
     display: flex;
     gap: 3rem;
 }
+
+.download-CV {
+
+    /* background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%); */
+
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    text-align: center;
+    transition: all 10s ease-in;
+    animation: borderColor 5s infinite linear ;
+}
+
+.download-CV a {
+    color: #d5d2e3;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0;
+    text-decoration: none;
+    transition: all 0.3s;
+    animation: download 3s infinite forwards;
+}
+
+/*  .download-CV a:hover{
+        font-size: 1.2rem;
+} */
+@keyframes borderColor {
+    0% {
+        border-top: 2px solid #49c2d7;
+        border-right: 2px solid #d75549;
+        border-bottom: 2px solid #5ed749;
+        border-left: 2px solid #6449d7;
+    }
+
+    25% {
+        border-top: 2px solid #6449d7;
+        border-right: 2px solid #49c2d7;
+        border-bottom: 2px solid #d75549;
+        border-left: 2px solid #5ed749;
+    }
+
+    50% {
+        border-top: 2px solid #5ed749;
+        border-right: 2px solid #6449d7;
+        border-bottom: 2px solid #49c2d7;
+        border-left: 2px solid #d75549;
+    }
+
+    75% {
+        border-top: 2px solid #d75549;
+        border-right: 2px solid #5ed749;
+        border-bottom: 2px solid #6449d7;
+        border-left: 2px solid #49c2d7;
+    }
+
+    100% {
+        border-top: 2px solid #49c2d7;
+        border-right: 2px solid #d75549;
+        border-bottom: 2px solid #5ed749;
+        border-left: 2px solid #6449d7;
+    }
+}
+
+@keyframes download {
+    0% {
+
+        font-size: 1rem;
+    }
+
+    25% {
+        font-size: 0.8rem;
+    }
+
+    50% {
+        font-size: 1rem;
+    }
+
+    75% {
+        font-size: 0.8rem;
+    }
+
+    100% {
+        font-size: 1rem;
+    }
+
+
+}
+
+
 
 @media (max-width:768px) {
     .contact-content {
