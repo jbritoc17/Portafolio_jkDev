@@ -27,7 +27,7 @@ const ContactMe = () => {
           </a>
           <div className="download-CV">
 
-          <a className="cv_link" href="/CV_Jean.pdf" download="CV_Jean.pdf">Download CV</a>
+          <a className="cv_link" href="public/CV_JeanBrito" download="CV_JeanBrito.pdf">Download CV</a>
         </div>
           </div>
         <div style={{ flex: 1 }}>
