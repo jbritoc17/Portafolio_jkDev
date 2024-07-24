@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="nav-content">
           <img
             className="logo"
-            src="../src/assets/images/avatar-man.gif"
+            src="../assets/images/avatar-man.gif"
             alt=""
           />
 <h5 className="">

@@ -1,7 +1,7 @@
 export const SKILLS = [
   {
     title: "Frontend",
-    icon: "../src/assets/images/frontend-icon.png",
+    icon: "../assets/images/frontend-icon.png",
     skills: [
       { skill: "HTML5", percentage: "80%" },
       { skill: "CSS3", percentage: "90%" },
@@ -11,7 +11,7 @@ export const SKILLS = [
   },
   {
     title: "Backend",
-    icon: "../src/assets/images/backend-icon.png",
+    icon: "../assets/images/backend-icon.png",
     skills: [
       { skill: "Node.js", percentage: "50%" },
       { skill: "Express.js", percentage: "50%" },
@@ -20,7 +20,7 @@ export const SKILLS = [
   },
   {
     title: "Tools",
-    icon: "../src/assets/images/tools-icon.png",
+    icon: "../assets/images/tools-icon.png",
     skills: [
       { skill: "Git & GitHub", percentage: "65%" },
       { skill: "Visual Studio Code", percentage: "90%" },
@@ -30,7 +30,7 @@ export const SKILLS = [
 
   {
     title: "Soft Skills",
-    icon: "../src/assets/images/soft-skills-icon.png",
+    icon: "../assets/images/soft-skills-icon.png",
     skills: [
       { skill: "Problem-solving", percentage: "70%" },
       { skill: "Collaboration", percentage: "80%" },
@@ -77,33 +77,33 @@ export const WORK_EXPERIENCE = [
 export const PROJECTS = [
   {
     tittle: "Fenix",
-    image: "../src/assets/images/html5_icon.png" ,
+    image: "../assets/images/html5_icon.png" ,
     skills: "",
   },
  
   {
     tittle: "Fenix",
-    image: "../src/assets/images/sql_icon.png",
+    image: "../assets/images/sql_icon.png",
     skills: "",
   },
   {
     tittle: "Fenix",
-    image: "../src/assets/images/js_icon.png",
+    image: "../assets/images/js_icon.png",
     skills: "",
   },
   {
     tittle: "Fenix",
-    image: "../src/assets/images/tailwind_css_icon.png",
+    image: "../assets/images/tailwind_css_icon.png",
     skills: "",
   },
   {
     tittle: "Fenix",
-    image: "../src/assets/images/nodejs_icon2.png",
+    image: "../assets/images/nodejs_icon2.png",
     skills: "",
   },
   {
     tittle: "Fenix",
-    image: "../src/assets/images/css3_icon.png",
+    image: "../assets/images/css3_icon.png",
     skills: "",
   },
 ];
