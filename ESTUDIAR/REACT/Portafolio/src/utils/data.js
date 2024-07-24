@@ -77,33 +77,39 @@ export const WORK_EXPERIENCE = [
 export const PROJECTS = [
   {
     tittle: "Fenix",
-    image: "../assets/images/html5_icon.png" ,
+    image: "../assets/images/Dalany-Project.png" ,
+    url:"https://dalanyecomercefrontend.netlify.app/",
     skills: "",
   },
  
   {
-    tittle: "Fenix",
-    image: "../assets/images/sql_icon.png",
+    tittle: "Dalany E-comerce",
+    image: "../assets/images/Dalany-Project.png",
+    url:"https://dalanyecomercefrontend.netlify.app/",
+    skills: "",
+  },
+  {
+    tittle: "Personajes",
+    image: "../assets/images/Personajes-Project.png",
+    url:"https://personajeapi-jk.netlify.app/",
     skills: "",
   },
   {
     tittle: "Fenix",
-    image: "../assets/images/js_icon.png",
+    image: "../assets/images/Personajes-Project.png",
+    url:"https://personajeapi-jk.netlify.app/",
     skills: "",
   },
   {
     tittle: "Fenix",
-    image: "../assets/images/tailwind_css_icon.png",
+    image: "../assets/images/Dalany-Project.png",
+    url:"https://dalanyecomercefrontend.netlify.app/",
     skills: "",
   },
   {
     tittle: "Fenix",
-    image: "../assets/images/nodejs_icon2.png",
-    skills: "",
-  },
-  {
-    tittle: "Fenix",
-    image: "../assets/images/css3_icon.png",
+    image: "../assets/images/Personajes-Project.png",
+    url:"https://personajeapi-jk.netlify.app/",
     skills: "",
   },
 ];

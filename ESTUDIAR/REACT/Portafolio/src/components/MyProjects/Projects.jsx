@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="projects-content">
         {PROJECTS.map((item) => (
           <div className="projects-carrusel" key={item.tittle}>
-            <a className="carrusel-img" href="">
+            <a className="carrusel-img" href={item.url} target="_blank">
               <img src={item.image} alt={item.tittle} />
             </a>
 
