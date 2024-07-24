@@ -96,6 +96,14 @@ span {
   transition: all 0.3s ease-in;
 }
 
+.projects-container h5{
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  
+}
+
 @keyframes rotate360 {
   from {
     transform: rotateY(0deg);
