@@ -13,22 +13,27 @@ export const MobileNav = ({ isOpen, toggleMenu }) => {
 
           <ul>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#">
                 Home
               </a>
             </li>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#sectionSkills">
                 Skills
               </a>
             </li>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#sectionProjects">
                 Projects
               </a>
             </li>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#sectionWorkExperience">
+                Work Experience
+              </a>
+            </li>
+            <li>
+              <a className="menu-item" href="#sectionContactMe">
                 Contact Me
               </a>
             </li>

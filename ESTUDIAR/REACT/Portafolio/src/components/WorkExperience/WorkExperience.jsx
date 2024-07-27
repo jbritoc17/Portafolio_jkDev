@@ -25,15 +25,15 @@ const WorkExperience = () => {
     ],
   };
 
-const slideRight = ()=>{
-  sliderRef.current.slickNext();
-}
+  const slideRight = () => {
+    sliderRef.current.slickNext();
+  };
 
-const slideLeft = ()=>{
-  sliderRef.current.slickPrev();
-}
+  const slideLeft = () => {
+    sliderRef.current.slickPrev();
+  };
   return (
-    <section className="experience-container">
+    <section className="experience-container" id="sectionWorkExperience">
       <h5>Work Experience</h5>
 
       <div className="experience-content">

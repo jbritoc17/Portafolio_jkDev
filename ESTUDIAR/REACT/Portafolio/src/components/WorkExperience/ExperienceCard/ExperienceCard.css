@@ -1,4 +1,4 @@
-.work-experience-card{
+.work-experience-card {
     background: #130f2a;
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
@@ -6,13 +6,13 @@
     margin: 0 1rem;
 }
 
-.work-experience-card h6{
+.work-experience-card h6 {
     font-size: 1.05rem;
     font-weight: 500;
     margin-bottom: 0.7rem;
 }
 
-.work-duration{
+.work-duration {
     display: inline-block;
     font-size: 0.7rem;
     font-weight: 400;
@@ -30,7 +30,7 @@
     position: relative;
 }
 
-.work-experience-card ul li::after{
+.work-experience-card ul li::after {
     content: " ";
     width: 0.5rem;
     height: 0.5rem;
@@ -42,15 +42,15 @@
 }
 
 @media (max-width: 768px) {
-    .work-experience-card{
+    .work-experience-card {
         margin: 0;
     }
 
-    .work-experience-card h6{
+    .work-experience-card h6 {
         font-size: 0.95rem;
     }
 
-    .work-experience-card ul li{
+    .work-experience-card ul li {
         font-size: 0.75rem;
     }
 }

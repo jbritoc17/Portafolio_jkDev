@@ -4,7 +4,7 @@ import { PROJECTS } from "../../utils/data";
 
 const Projects = () => {
   return (
-    <section className="projects-container">
+    <section className="projects-container" id="sectionProjects">
       <h5>Projects</h5>
 
       <div className="projects-content">

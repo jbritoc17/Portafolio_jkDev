@@ -12,7 +12,6 @@ const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
       </div>
 
       <span>{title} </span>
-      
     </div>
   );
 };

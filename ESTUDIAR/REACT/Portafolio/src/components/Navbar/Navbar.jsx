@@ -14,32 +14,31 @@ const Navbar = () => {
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img
-            className="logo"
-            src="../assets/images/avatar-man.gif"
-            alt=""
-          />
-<h5 className="">
-  Jean Carlos Augusto Brito Cuesta
-  </h5>
+          <img className="logo" src="../assets/images/avatar-man.gif" alt="" />
+          <h5 className="">Jean Carlos Augusto Brito Cuesta</h5>
           <ul>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#">
                 Home
               </a>
             </li>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#sectionSkills">
                 Skills
               </a>
             </li>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#sectionProjects">
                 Projects
               </a>
             </li>
             <li>
-              <a className="menu-item" href="">
+              <a className="menu-item" href="#sectionWorkExperience">
+                Work Experience
+              </a>
+            </li>
+            <li>
+              <a className="menu-item" href="#sectionContactMe">
                 Contact Me
               </a>
             </li>

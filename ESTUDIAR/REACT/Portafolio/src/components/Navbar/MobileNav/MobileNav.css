@@ -1,7 +1,7 @@
 .mobile-menu {
     width: 100vw;
     height: 100vh;
-     display: none;
+    display: none;
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
     left: 0;
@@ -13,14 +13,14 @@
     transform: translateX(-100vw);
 }
 
-.mobile-menu-container{
+.mobile-menu-container {
     width: 60vw;
     height: 100vh;
     background-color: #342864;
     padding: 2rem;
 }
 
-.mobile-menu.active{
+.mobile-menu.active {
     opacity: 1;
     transform: translateX(0);
 }
@@ -38,7 +38,7 @@
 }
 
 @media (max-width: 769px) {
-    .mobile-menu{
+    .mobile-menu {
         display: block;
     }
 }

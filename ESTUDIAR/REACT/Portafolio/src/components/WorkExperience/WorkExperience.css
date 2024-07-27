@@ -1,16 +1,17 @@
-.experience-container{
+.experience-container {
     margin: 4rem 0;
     position: relative;
 }
 
-.experience-container h5{
+.experience-container h5 {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 3rem;
 
 }
 
-.arrow-left, .arrow-right{
+.arrow-left,
+.arrow-right {
     width: 2.2rem;
     height: 2.2rem;
     display: flex;
@@ -26,39 +27,41 @@
     cursor: pointer;
 }
 
-.arrow-left span, .arrow-right span{
+.arrow-left span,
+.arrow-right span {
     font-size: 2rem;
     font-weight: 500;
 }
 
-.arrow-left{
+.arrow-left {
     left: -2rem;
 }
 
-.arrow-right{
+.arrow-right {
     right: -2rem;
 }
 
 @media (max-width: 1025px) {
-    .arrow-left{
+    .arrow-left {
         left: 0rem;
     }
-    .arrow-right{
+
+    .arrow-right {
         right: 0rem;
     }
 }
 
 @media (max-width: 768px) {
-    .experience-container h5{
+    .experience-container h5 {
         font-size: 1.3rem;
         margin-bottom: 2rem;
     }
 
-    .arrow-left{
+    .arrow-left {
         left: -1rem;
     }
 
-    .arrow-right{
+    .arrow-right {
         right: -1rem;
     }
 }

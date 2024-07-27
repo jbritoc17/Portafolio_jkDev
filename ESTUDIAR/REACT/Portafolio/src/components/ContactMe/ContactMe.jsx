@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm/ContactForm";
 
 const ContactMe = () => {
   return (
-    <section className="contact-container">
+    <section className="contact-container" id="sectionContactMe">
       <h5>Contact Me</h5>
 
       <div className="contact-content">
@@ -26,10 +26,15 @@ const ContactMe = () => {
             />
           </a>
           <div className="download-CV">
-
-          <a className="cv_link" href="/CV_JeanBrito.pdf" download="CV_JeanBrito.pdf">Download CV</a>
-        </div>
+            <a
+              className="cv_link"
+              href="/CV_JeanBrito.pdf"
+              download="CV_JeanBrito.pdf"
+            >
+              Download CV
+            </a>
           </div>
+        </div>
         <div style={{ flex: 1 }}>
           <ContactForm />
         </div>

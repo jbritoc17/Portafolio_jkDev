@@ -15,7 +15,7 @@ function App() {
       <div className="container">
         <Hero />
         <Skills />
-        <Projects/>
+        <Projects />
         <WorkExperience />
         <ContactMe />
       </div>

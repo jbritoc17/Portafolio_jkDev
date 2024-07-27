@@ -15,14 +15,11 @@
 }
 
 .download-CV {
-
-    /* background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%); */
-
     padding: 0.6rem;
     border-radius: 0.6rem;
     text-align: center;
     transition: all 10s ease-in;
-    animation: borderColor 5s infinite linear ;
+    animation: borderColor 5s infinite linear;
 }
 
 .download-CV a {
